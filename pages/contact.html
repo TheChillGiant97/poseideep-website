@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Plan your private diving experience or contact Poseideep Dive Discoveries in Mauritius.">
+  <title>Plan Your Dive | Poseideep</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+<header class="site-header" style="position:relative;background:#061019">
+  <a class="brand" href="../index.html">
+    <span class="brand-main">POSEIDEEP</span>
+    <span class="brand-sub">DIVE DISCOVERIES</span>
+  </a>
+
+  <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+
+  <nav class="main-nav">
+    <a href="private-diving.html">Private Diving</a>
+    <a href="courses.html">Courses</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a class="nav-cta" href="contact.html#plan-your-dive">Plan Your Dive</a>
+  </nav>
+</header>
+
+
+<main>
+
+  <!-- PAGE INTRO -->
+  <section class="contact-hero">
+
+    <p class="eyebrow">Poseideep · Mauritius</p>
+
+    <h1>
+      Let's plan your<br>
+      next dive.
+    </h1>
+
+    <p>
+      Tell us a little about yourself and what you're looking for.
+      Whether it's private diving, training or something more advanced,
+      your enquiry starts a conversation — not a booking template.
+    </p>
+
+  </section>
+
+
+  <!-- PLAN YOUR DIVE -->
+  <section class="dive-enquiry" id="plan-your-dive">
+
+    <div class="enquiry-intro">
+
+      <p class="eyebrow">Plan Your Dive</p>
+
+      <h2>
+        Tell us how<br>
+        you want to dive.
+      </h2>
+
+      <p>
+        Share what you already know about your plans. You don't need
+        to have everything figured out — we'll work through the details
+        with you.
+      </p>
+
+    </div>
+
+
+    <form class="dive-form">
+
+      <!-- ABOUT YOU -->
+      <fieldset>
+
+        <legend>
+          <span>01</span>
+          About You
+        </legend>
+
+        <div class="form-grid">
+
+          <div class="form-field">
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+
+          <div class="form-field">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="form-field">
+            <label for="phone">WhatsApp / Phone</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+
+          <div class="form-field">
+            <label for="country">Country</label>
+            <input type="text" id="country" name="country">
+          </div>
+
+        </div>
+
+      </fieldset>
+
+
+      <!-- YOUR DIVING -->
+      <fieldset>
+
+        <legend>
+          <span>02</span>
+          Your Diving
+        </legend>
+
+        <div class="form-grid">
+
+          <div class="form-field">
+            <label for="certification">Current Certification</label>
+
+            <select id="certification" name="certification">
+              <option value="">Select</option>
+              <option>Not yet certified</option>
+              <option>Open Water Diver</option>
+              <option>Advanced Diver</option>
+              <option>Rescue Diver</option>
+              <option>Divemaster / Professional</option>
+              <option>Technical Diver</option>
+              <option>CCR Diver</option>
+              <option>Other</option>
+            </select>
+          </div>
+
+          <div class="form-field">
+            <label for="dives">Approximate Number of Dives</label>
+            <input type="number" id="dives" name="dives" min="0">
+          </div>
+
+          <div class="form-field form-wide">
+            <label for="last-dive">When was your last dive?</label>
+            <input type="text" id="last-dive" name="last-dive" placeholder="e.g. June 2026">
+          </div>
+
+        </div>
+
+      </fieldset>
+
+
+      <!-- INTEREST -->
+      <fieldset>
+
+        <legend>
+          <span>03</span>
+          What Are You Looking For?
+        </legend>
+
+        <div class="interest-grid">
+
+          <label class="interest-option">
+            <input type="checkbox" name="interest" value="Private Recreational Diving">
+            <span>Private Recreational Diving</span>
+          </label>
+
+          <label class="interest-option">
+            <input type="checkbox" name="interest" value="Recreational Course">
+            <span>Recreational Course</span>
+          </label>
+
+          <label class="interest-option">
+            <input type="checkbox" name="interest" value="Technical Diving">
+            <span>Technical Diving</span>
+          </label>
+
+          <label class="interest-option">
+            <input type="checkbox" name="interest" value="Technical Course">
+            <span>Technical Course</span>
+          </label>
+
+          <label class="interest-option">
+            <input type="checkbox" name="interest" value="Sidemount">
+            <span>Sidemount</span>
+          </label>
+
+          <label class="interest-option">
+            <input type="checkbox" name="interest" value="CCR">
+            <span>CCR</span>
+          </label>
+
+          <label class="interest-option">
+            <input type="checkbox" name="interest" value="Not Sure">
+            <span>I'm Not Sure Yet</span>
+          </label>
+
+          <label class="interest-option">
+            <input type="checkbox" name="interest" value="Other">
+            <span>Something Else</span>
+          </label>
+
+        </div>
+
+      </fieldset>
+
+
+      <!-- YOUR PLANS -->
+      <fieldset>
+
+        <legend>
+          <span>04</span>
+          Your Plans
+        </legend>
+
+        <div class="form-grid">
+
+          <div class="form-field">
+            <label for="divers">Number of Divers</label>
+            <input type="number" id="divers" name="divers" min="1">
+          </div>
+
+          <div class="form-field">
+            <label for="dates">Preferred Dates</label>
+            <input type="text" id="dates" name="dates" placeholder="Exact or approximate dates">
+          </div>
+
+          <div class="form-field form-wide">
+            <label for="message">Tell Us What You're Looking For</label>
+
+            <textarea
+              id="message"
+              name="message"
+              rows="6"
+              placeholder="Tell us about the kind of diving, training or experience you have in mind."
+            ></textarea>
+          </div>
+
+        </div>
+
+      </fieldset>
+
+
+      <div class="form-submit">
+
+        <p>
+          We'll use this information to understand your enquiry and
+          discuss the next steps with you.
+        </p>
+
+        <button type="submit" class="button button-primary">
+          Send Enquiry
+        </button>
+
+      </div>
+
+    </form>
+
+  </section>
+
+
+  <!-- GENERAL CONTACT -->
+  <section class="general-contact">
+
+    <div>
+      <p class="eyebrow">Contact</p>
+
+      <h2>
+        Something else?<br>
+        Get in touch.
+      </h2>
+    </div>
+
+    <div class="contact-details">
+
+      <div class="contact-detail">
+        <span>Email</span>
+        <p>Poseideep email coming soon</p>
+      </div>
+
+      <div class="contact-detail">
+        <span>WhatsApp / Phone</span>
+        <p>Contact number coming soon</p>
+      </div>
+
+      <div class="contact-detail">
+        <span>Location</span>
+        <p>Mauritius</p>
+      </div>
+
+    </div>
+
+  </section>
+
+</main>
+
+
+<footer>
+
+  <div class="footer-brand">
+    <strong>POSEIDEEP</strong>
+    <span>DIVE DISCOVERIES LTD</span>
+  </div>
+
+  <p>Private Diving · Recreational Training · Technical Diving</p>
+  <p>Mauritius</p>
+
+  <p class="copyright">
+    © <span id="year"></span> Poseideep Dive Discoveries LTD
+  </p>
+
+</footer>
+
+<script src="../js/main.js"></script>
+
+</body>
+</html>
